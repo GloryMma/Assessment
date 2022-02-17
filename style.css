@@ -4,6 +4,7 @@
 body{
   color: black;
 }
+
 nav{
   width: 100%;
   overflow: auto;
@@ -12,7 +13,7 @@ nav{
 .mynav {
   background-color: white; 
   list-style-type: none;
-  margin: 0 0 0 400px;
+  margin: 10px 0 0 500px;
   padding: 0;
 }
 .mynav li {
@@ -22,16 +23,18 @@ nav{
 .mynav a{
 text-decoration: none;
 display: block;
-padding: 20px 15px;
+padding: 20px 12px;
 text-align: center;
 color: black;
 
 }
-.meu p{
+.logo p{
   position: absolute;
-  margin-top: 25px;
+  margin-top: 30px;
   margin-left: 70px;
   font-size: small;
+  border: 3px solid darkgrey;
+  background-color: darkgrey;
 }
 .container{
   width: 1450px;
@@ -56,16 +59,40 @@ color: black;
   height: 250px;
   
 }
-
 .flex-container .box {
   background-color: #f1f1f1;
   margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  width: 33.3%;
+}
+.flex-container .child {
+  background-color: white;
+  width: 110px;
+ height: 35px;
+ position: absolute;
+transform: translate(450px, 155px);
+padding-top: 10px;
+padding-left: 10px;
+text-align: center;
+
+}
+.flex-container .Secondchild {
+  background-color: white;
+  width: 110px;
+ height: 20px;
+ position: absolute;
+transform: translate(104px, 170px);
+text-align: center;
+
 }
 
+.flex-container .Thirdchild {
+  background-color: white;
+  width: 110px;
+ height: 20px;
+ position: absolute;
+ transform: translate(104px, 170px);
+text-align: center;
+
+}
 
 .footer{
   text-align: center;
