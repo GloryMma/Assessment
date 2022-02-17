@@ -4,10 +4,41 @@
 body{
   color: black;
 }
+
+.mynav {
+  background-color: white; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.mynav a{
+  text-decoration: none;
+}
+.mynav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.mylogo a{
+  color: black;
+  border: 1px solid black;
+  padding: 5px 7px;
+  font-size: small;
+  text-decoration: none;
+  background-color: darkgrey;
+
+}
+.mylogo{
+  margin-left: 100px;
+ margin-top:3em ;
+}
+
 .container{
   width: 1450px;
  margin: 0 auto;
- background-color: #d3d3d3;
+ background-color: #f1f1f1;
  background-size: cover;
  padding: 155px 0;
  text-align: center;
@@ -38,4 +69,37 @@ body{
 }
 .footer{
   text-align: center;
+}
+.sm {
+  background-color: white; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.sm a{
+  text-decoration: none;
+}
+.sm li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.fa-facebook {
+  color: gray;
+  border: 1px solid #f1f1f1;
+  padding: 6px 6px;
+  
+}
+
+.fa-twitter {
+  color: gray;
+  border: 1px solid #f1f1f1;
+  padding: 5px 4px;
+  
+}
+.fa-instagram {
+  color: gray;
+  border: 1px solid #f1f1f1;
+  padding: 6px 4px;
 }
